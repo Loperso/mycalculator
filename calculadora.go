@@ -11,7 +11,7 @@ import (
 type calc struct {
 }
 
-func leerEntrada() string {
+func LeerEntrada() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 
